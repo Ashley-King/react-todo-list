@@ -12,7 +12,17 @@ export default class TodoInput extends Component {
                 <i className="fal fa-book" />
               </div>
             </div>
+            <input
+              type="text"
+              className="form-control text-capitalize"
+              placeholder="add todo item"
+              value={item}
+              onChange={handleChange}
+            />
           </div>
+          <button type="submit" className="btn btn-block btn-primary mt-3">
+            add item
+          </button>
         </form>
       </div>
     );
