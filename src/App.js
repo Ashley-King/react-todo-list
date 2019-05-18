@@ -3,6 +3,7 @@ import uuid from "uuid";
 import "bootstrap/dist/css/bootstrap.css";
 import TodoList from "./components/TodoList";
 import TodoInput from "./components/TodoInput";
+import "@fortawesome/fontawesome-pro/css/all.css";
 
 class App extends Component {
   state = {
