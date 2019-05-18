@@ -45,7 +45,8 @@ class App extends Component {
       return {
         items: updatedList,
         item: itemToEdit.title,
-        id: id
+        id: id,
+        editItem: true
       };
     });
   };
